@@ -32,7 +32,7 @@ class ReservationController extends Controller
 
 		$validator = Validator::make($request->all(), [ 
 	     							'table' => 'required|integer',
-							        'event' => 'required|integer'
+							        'event' => 'required|integer',
 							        'date'  => 'required'
 		         
         ]);

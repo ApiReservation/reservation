@@ -12,11 +12,12 @@ class EventController extends Controller
  
 	public function __construct()
 	{
-	    $this->user = JWTAuth::parseToken()->authenticate();
+	     // $this->user = JWTAuth::parseToken()->authenticate();
 	}
 
 	public function index()
 	{ 
+	
 
 			$event = Event::all(); 
 			
